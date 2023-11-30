@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Checkpoint html</title>
+    <link rel="stylesheet" href="betty.css">
+
+
 </head>
 
 <body>
     <header>
         <nav>
+            <a href=""> <img src="https://img.freepik.com/photos-premium/journee-mondiale-eau-pour-sauver-campagne-qualite-eau-concept-protection-environnement-sauver-eau-verte-paix-ecologie-nature-besoin-conserver-eau-potable-generatrice-ia_727385-1318.jpg"
+                alt=""></a>
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -17,15 +22,14 @@
                 <li><a href="#resume">resume</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
-            <img src="https://img.freepik.com/photos-premium/journee-mondiale-eau-pour-sauver-campagne-qualite-eau-concept-protection-environnement-sauver-eau-verte-paix-ecologie-nature-besoin-conserver-eau-potable-generatrice-ia_727385-1318.jpg"
-                alt="">
+           
         </nav>
     </header>
 
     <main>
         <section>
-            <h1 id="home">home</h1>
-            <p>Je suis fatima bity gaye etudiante en science de l'eau et de lenvironnement à l'université de thies.
+            <h1  id="home">home</h1>
+            <p class="p1">Je suis fatima bity gaye etudiante en science de l'eau et de lenvironnement à l'université de thies.
                 <br>
                 Je suis à ma deuixème année de licence que je vais sûrement terminer l'année prochaine.
                 <br>
@@ -33,12 +37,12 @@
             </p>
         </section>
         <section>
-            <h1 id="about">About me</h1>
-            <p>Je suis à la recherche d'une stage pour améliorer mes compétences ainsi que pour acquérir plus d'experience dans les domaines hydraulique et environnementale</p>  
+            <h1 id="about me">About me</h1>
+            <p class="p2" >Je suis à la recherche d'une stage pour améliorer mes compétences ainsi que pour acquérir plus d'experience dans les domaines hydraulique et environnementale</p>  
         </section>
         <section>
             <h1 id="work">work</h1>
-            <p> L'hydraulicien intervient dans la conception de tous les ouvrages et constructions qui mettent en œuvre
+            <p class="p3"> L'hydraulicien intervient dans la conception de tous les ouvrages et constructions qui mettent en œuvre
                 la mécanique des fluides dans le cadre du génie civil : barrages, centrales hydroélectriques, châteaux
                 d'eau, usines marémotrices, réseaux de distribution et d'irrigation.
                 <br>
@@ -46,12 +50,12 @@
                 environnementale dans son entreprise,s'assurer de la conformité réglementaire environnementale de son
                 site,promouvoir les bonnes pratiques environnementales.
             </p>
-            <video width="500" height="300" src="video/ISEE.mp4" controls></video>
+            <video class="vidéo" width="500" height="300" src="video/ISEE.mp4" controls></video>
         </section>
         <section>
             <h1 id="resume">resume</h1>
-            <table border="2">
-                <tr>
+            <table class="table">               
+                <tr id="style-ligne1">
                     <th>compétences</th>
                     <th>pourcentages</th>
                     <th>decription</th>
@@ -92,34 +96,39 @@
             <h1 id="contact">contact</h1>
             <form action="">
                 <label for="">NOM:</label>
-                <input type="text" placeholder="Entrer votre nom">
+                <input type="text" class="int" placeholder="Entrer votre nom">
                 <br>
                 <label for="">PRENOM:</label>
-                <input type="text">
+                <input type="text" placeholder="enter votre prénom">
                 <br>
                 <label for="">NUMERO:</label>
-                <input type="text" >
+                <input type="text" placeholder="77 777 77 77" >
                 <br>
                 <label for="">EMAIL:</label>
-                <input type="email" placeholder="exemple@gmail.com">
-                <br>
-                <label for="">SUGGESTION</label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="entrer votre message"></textarea>
+                <input type="text" class="email" placeholder="exemple@gmail.com">
+                  <br >    
+                  <label for="">PAYS:</label>  
+                  <select name="" id="" class="select">
+                    <option value="">SENEGAL</option>
+                    <option value="">MALI</option>
+                    <option value="">EGYPTE</option>
+                  </select>    
+                  <br>  
+                <textarea name="" id="" cols="30" rows="10" placeholder="entrer votre message" ></textarea>
                 <br>
                 <button type="submit">soumettre</button>
             </form>
         </section>
-
     </main>
-
+    <br>
     <footer>
-       <p>ADRESSE:ouakam, cité asecna villa N 124</p>
+       <p class="footer1">ADRESSE:ouakam, cité asecna villa N 124
        <br>
-       <p>TELEPHONE:00221 70 823 07 82</p>
+       EMAIL:fatimabitygaye@gmail.com
+       <br>
+       TELEPHONE:00221 70 823 07 82</p>
        <li><a href="">facebook</a></li>
        <li><a href="">instagram</a></li>
        <li><a href=""><Label>Linkdin</Label></a></li>
     </footer>
 </body>
-
-</html>
